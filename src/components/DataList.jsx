@@ -1,13 +1,13 @@
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import DataCards from './DataCards';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import DataCards from './DataCards'
 const DataList = ({ data, changePump }) => {
   return (
     <>
       <Row className="justify-content-center">
         <Col sm={2}></Col>
         <Col sm={4}>
-          <DataCards type="water" data={data.Moisture} />
+          <DataCards type="humid" data={data.Humidity} />
         </Col>
         <Col sm={4}>
           <DataCards type="temp" data={data.Temperature} />
@@ -16,19 +16,11 @@ const DataList = ({ data, changePump }) => {
       <Row className=" justify-content-center">
         <Col sm={2}></Col>
         <Col sm={4}>
-          <DataCards type="humid" data={data.Humidity} />
-        </Col>
-        <Col sm={4}>
-          <DataCards
-            type="pump"
-            data={data.Pump}
-            changePump={changePump}
-            userPump={data.UserPump}
-          />
+          <DataCards type="water" data={data.Moisture} />
         </Col>
       </Row>
     </>
-  );
-};
+  )
+}
 
-export default DataList;
+export default DataList
