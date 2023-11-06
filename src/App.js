@@ -60,7 +60,7 @@ function App() {
     <Router>
       <Container fluid>
         <Row>
-          <Col md={9}>
+          <Col md={12}>
             <Row className="justify-content-center pt-0 navbar ">
               <Sidebar />
             </Row>
@@ -80,9 +80,9 @@ function App() {
             </Row>
           </Col>
 
-          <Col sm={3} className='bg-primary'>
+          {/* <Col sm={3} className='bg-primary'>
             <PlantDetail />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Router>

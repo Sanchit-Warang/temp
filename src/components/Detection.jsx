@@ -102,7 +102,7 @@ export const Detection = () => {
 
     Promise.all(promises).then((base64files) => {
       const data = {
-        api_key: 'dLNHhgCRk6Oiv7wvgeakL4SEyiauzjkxI7oJoTHhBBo2iFcp9d',
+        api_key: 'KflHIg2Tstn7ZyBVJtzlmXl4F7oElTU0L9tuNdxy73qk9YVLJK',
         images: base64files,
         // modifiers docs: https://github.com/flowerchecker/Plant-id-API/wiki/Modifiers
         modifiers: ['crops_fast', 'similar_images'],

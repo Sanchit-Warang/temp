@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "bootswatch/dist/zephyr/bootstrap.min.css";
+import "bootswatch/dist/vapor/bootstrap.min.css";
 import "./style/index.css";
 import App from "./App";
 

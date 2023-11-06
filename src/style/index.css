@@ -78,7 +78,7 @@ body {
   /* background-image: url('../../public/images/IMG-6447.PNG');
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #d4e9ec;
+  /* background-color: #d4e9ec; */
 }
 
 body::-webkit-scrollbar {
@@ -123,8 +123,8 @@ body::-webkit-scrollbar-thumb {
   border-style: solid;
   border-width: 2px;
   border-color: #bcc8e5;
-  background-color: #bdd6e7;
-  color: aliceblue;
+  /* background-color: #bdd6e7; */
+  /* color: aliceblue; */
 }
 
 .navbar {
@@ -135,12 +135,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-icons:hover {
-  color: #bcc8e5;
+  /* color: #bcc8e5; */
   cursor: pointer;
 }
 
 .nav-icons {
-  color: #646e95;
+  /* color: #646e95; */
 }
 
 .active-link {
@@ -150,8 +150,8 @@ body::-webkit-scrollbar-thumb {
   border-style: solid;
   border-width: 2px;
   border-color: #bcc8e5;
-  background-color: #bdd6e7;
-  color: #646e95;
+  /* background-color: #bdd6e7; */
+  /* color: #646e95; */
 }
 
 .side {

@@ -65,14 +65,14 @@ function PlantDetail({ photo }) {
       <Row className="box-row">
         <Col md={1}></Col>
         <Col md={5} className="fluid card-bg-1 bg-dark">
-          <div className="p-3 text-white">
+          <div className="p-3">
             <p>
               Banana leaves are large, flat leaves commonly used in tropical
               cuisines for wrapping and cooking food.
             </p>
           </div>
         </Col>
-        <Col md={5} className="fluid bg-light">
+        <Col md={5} className="fluid bg-light text-black">
           <div className="p-3 ">
             <p>
               They are also eco-friendly, biodegradable, and have cultural

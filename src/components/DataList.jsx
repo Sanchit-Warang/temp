@@ -5,7 +5,6 @@ const DataList = ({ data, changePump }) => {
   return (
     <>
       <Row className="justify-content-center">
-        <Col sm={2}></Col>
         <Col sm={4}>
           <DataCards type="humid" data={data.Humidity} />
         </Col>
@@ -14,7 +13,6 @@ const DataList = ({ data, changePump }) => {
         </Col>
       </Row>
       <Row className=" justify-content-center">
-        <Col sm={2}></Col>
         <Col sm={4}>
           <DataCards type="water" data={data.Moisture} />
         </Col>

@@ -46,20 +46,20 @@ function Sidebar() {
           </NavLink>
         </h1>
       </Col> */}
-      <Col xs={2} md={1} className="text-color-primary">
+      {/* <Col xs={2} md={1} className="text-color-primary">
         <h1>
           <NavLink to="/stats">
             <ImStatsDots className="nav-icons" />
           </NavLink>
         </h1>
-      </Col>
-      <Col xs={2} md={1} className="text-color-primary">
+      </Col> */}
+      {/* <Col xs={2} md={1} className="text-color-primary">
         <h1>
           <NavLink to="/detection">
             <FaDisease className="nav-icons" />
           </NavLink>
         </h1>
-      </Col>
+      </Col> */}
       <Col xs={2} md={1} className="text-color-primary">
         <h1>
           <NavLink to="/recommendation">
@@ -67,13 +67,13 @@ function Sidebar() {
           </NavLink>
         </h1>
       </Col>
-      <Col xs={2} md={1} className="text-color-primary">
+      {/* <Col xs={2} md={1} className="text-color-primary">
         <h1>
           <NavLink to="/fertilizer">
             <GiFertilizerBag className="nav-icons" />
           </NavLink>
         </h1>
-      </Col>
+      </Col> */}
       <Offcanvas show={show} onHide={handleClose} style={{ width: '200px' }}>
         <Offcanvas.Header closeButton style={background}>
           <Offcanvas.Title>
