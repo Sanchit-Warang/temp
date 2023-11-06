@@ -46,13 +46,13 @@ function Sidebar() {
           </NavLink>
         </h1>
       </Col> */}
-      {/* <Col xs={2} md={1} className="text-color-primary">
+      <Col xs={2} md={1} className="text-color-primary">
         <h1>
           <NavLink to="/stats">
             <ImStatsDots className="nav-icons" />
           </NavLink>
         </h1>
-      </Col> */}
+      </Col>
       {/* <Col xs={2} md={1} className="text-color-primary">
         <h1>
           <NavLink to="/detection">
